@@ -152,3 +152,5 @@ cat > goodjob.txt
 Good job!!
 
 cat goodjob.txt
+
+либо echo "Good job!!"
