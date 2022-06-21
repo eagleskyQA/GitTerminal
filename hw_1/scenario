@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Захожу в папку ScriptTest:"
+cd ScriptTest/
+echo "Создаю 3 папки:"
+mkdir script_1 script_2 script_3
+echo "Захожу в одну из созданных папок:"
+cd script_3/
+echo "Создаю 5 файлов (3 txt, 2json):"
+touch sc_1.txt sc_2.txt sc_3.txt scr_1.json scr_2.json
+echo "Создаю 3 папки:"
+mkdir alpha bravo omega
+echo "Вывожу список содержимого папки:"
+ls -la
+echo "Перемещаю любые 2 созданных файла в другую папку:"
+mv sc_1.txt alpha; mv sc_2.txt alpha
+
